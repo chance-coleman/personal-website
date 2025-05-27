@@ -4,7 +4,8 @@ import '../App.css';
 const contact = {
   email: "chancec63@gmail.com",
   linkedin: "https://www.linkedin.com/in/chance--coleman/",
-  website: "https://www.chance-coleman.com"
+  website: "https://chance-coleman.github.io/personal-website/",
+  github: "https://github.com/chance-coleman"
 };
 
 const ContactTerminal = () => {
@@ -16,6 +17,9 @@ const ContactTerminal = () => {
       </p>
       <p>
         💼 LinkedIn: <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="contact-link">chance--coleman</a>
+      </p>
+      <p>
+        🐙 Github: <a href={contact.github} target="_blank" rel="noopener noreferrer" className="contact-link">chance-coleman</a>
       </p>
     </section>
   );
