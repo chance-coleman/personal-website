@@ -1,7 +1,6 @@
 import React from 'react';
 import TerminalIntro from './components/TerminalIntro';
 import ExperienceTimeline from './components/ExperienceTimeline';
-import SkillHeatmap from './components/SkillHeatmap';
 import ProjectShowcase from './components/ProjectShowcase';
 import ContactTerminal from './components/ContactTerminal';
 import HUDBackground from './components/HUDBackground';
@@ -16,7 +15,6 @@ function App() {
         <TerminalIntro />
         <ExperienceTimeline />
         <Internships />
-        <SkillHeatmap />
         <ProjectShowcase />
         <ContactTerminal />
       </div>
